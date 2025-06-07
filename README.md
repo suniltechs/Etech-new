@@ -5,7 +5,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/-Live%20Demo-4640DE?style=for-the-badge&logo=vercel&logoColor=white)](https://etechs.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/-Live%20Demo-4640DE?style=for-the-badge&logo=vercel&logoColor=white)](https://etech-new.netlify.app/)
 
 <br />
 </div>
@@ -60,7 +60,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/suniltechs/Etech.git
+    git clone https://github.com/suniltechs/Etech-new.git
     ```
 
 2. **Navigate to the project folder:**
