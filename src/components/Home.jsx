@@ -76,7 +76,7 @@ const Home = () => {
         </div>
         <img
           src={Pattern}
-          className="absolute right-0 w-[860px] top-0 -z-10 mt-0 xs:mt-96 md:mt-0"
+          className="absolute right-0 w-[860px] top-0 -z-10 mt-0 xs:mt-[510px] md:mt-0"
           alt="Background pattern"
           loading="eager"
         />
