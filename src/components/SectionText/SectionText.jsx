@@ -12,6 +12,10 @@ const SectionText = ({ title, subTitle, ctaName }) => {
       <Link
         to="/all-courses"
         className="flex group items-center gap-[5px] font-semibold md:text-base text-sm text-nowrap text-textDarkColor transition duration-300"
+        onClick={(e) => {
+          e.preventDefault(); // Prevents redirect
+          console.log("Card clicked, but no navigation");
+        }}
       >
         {ctaName}
         <GoArrowRight
