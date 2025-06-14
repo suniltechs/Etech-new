@@ -23,6 +23,10 @@ const Benefits = () => {
                 key={benefit.id}
                 to={`/jobs/benefit/${encodeURIComponent(benefit.name.toLowerCase())}`}
                 className= "bg-custom-gradient w-full hover:shadow-2xl hover:-translate-y-2 shadow-primaryColor/10 hover:border-textDarkColor duration-300 transition group rounded-xl border border-[#D6DDEB] p-8"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevents redirect
+                  console.log("Card clicked, but no navigation");
+                }}
               >
                 <div className="p-2 mb-3 rounded-lg shadow-lg h-18 w-14 bg-white/10">
                   {!onload && (
