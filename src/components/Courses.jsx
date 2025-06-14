@@ -23,6 +23,10 @@ const Courses = () => {
                   .join("-"))}`}
                 key={courselist.id}
                 className="relative transition-all duration-500 bg-white border cursor-pointer hover:shadow-lg border-gray-400/20 rounded-xl p-7 group hover:-translate-y-2 hover:border-primaryColor/30"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevents redirect
+                  console.log("Card clicked, but no navigation");
+                }}
               >
                 {/* Floating effect */}
                 <div className="absolute inset-0 bg-gradient-to-br from-primaryColor/5 to-secondaryColor/5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
