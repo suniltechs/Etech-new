@@ -12,6 +12,10 @@ const SectionText2 = ({ title2, subTitle2, ctaName2 }) => {
       <Link
         to="/all-jobs"
         className="flex group items-center gap-[5px] font-semibold md:text-base text-sm text-nowrap text-textDarkColor transition duration-300"
+        onClick={(e) => {
+          e.preventDefault(); // Prevents redirect
+          console.log("Card clicked, but no navigation");
+        }}
       >
         {ctaName2}
         <GoArrowRight
